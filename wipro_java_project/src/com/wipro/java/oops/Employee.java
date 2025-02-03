@@ -16,7 +16,7 @@ public class Employee {
 	private String name; // This is the employee's name
 	private String designation; // This is the employee's job designation (e.g., Software Engineer)
 	private double salary; // This is the employee's salary
-	private boolean isTaxApplicable;
+//	private boolean isTaxApplicable;
 	
 	public int getId() {
 		return id;
