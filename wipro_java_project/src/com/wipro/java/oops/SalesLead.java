@@ -5,23 +5,20 @@ package com.wipro.java.oops;
 
 /**
  * parent class = Employee
- * child class = Manager
+ * child class = Sales
  * extends = keyword
  */
-public class Manager extends Employee {
-
-	/**
-	 * 
-	 */
-	public Manager() {
+public class SalesLead extends Employee {
+	public SalesLead() {
 		// TODO Auto-generated constructor stub
 	}
+	
 	public static void main(String a[]) {
 
-		Employee employee = new Manager();
-		employee.setId(1237);
-		employee.setName("Mani");
-		employee.setSalary(90000f);
+		Employee employee = new SalesLead();
+		employee.setId(1235);
+		employee.setName("Raj");
+		employee.setSalary(60000f);
 		
 		
 		System.out.println(employee.getId());

@@ -16,7 +16,7 @@ public class Employee {
 	private String name; // This is the employee's name
 	private String designation; // This is the employee's job designation (e.g., Software Engineer)
 	private double salary; // This is the employee's salary
-	
+	private boolean isTaxApplicable;
 	
 	public int getId() {
 		return id;
@@ -50,6 +50,7 @@ public class Employee {
 		this.salary = salary;
 	}
 	
+	@Override
 	// toString method to represent the Employee object as a string
 		public String toString() {
 			return "Employee [ID=" + id + 
@@ -58,9 +59,4 @@ public class Employee {
 			       ", Salary=" + salary + "]";
 		}
 	
-	// Main method - this is the entry point for the program when run
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// You can use this method for testing the Employee class in the future
-	}
 }

@@ -8,6 +8,7 @@ package com.wipro.java.oops;
  * POJO : Plain old java object access through getter/setter
  * Properties :
  * No Constructor
+ * Parent Class should not have Main as it should not have a responsibility 
  * Getters have a return value
  * Setters have no return value
  * Properties are determined using private fields
@@ -112,7 +113,8 @@ public class Animal {
 	public void setWeight(float weight) {
 		this.weight = 190.5f;
 	}
-
+	
+	@Override
 	// toString method to represent the Animal object as a string
 	public String toString() {
 		return "animalName=" + animalName + 
@@ -124,15 +126,7 @@ public class Animal {
 
 	
 	}
-	/**
-	 * @param args
-	 */
-	 public static void main(String[] args) {
-	        // Sample code to test the Animal class
-	        Animal myAnimal = new Animal();
 
-	        System.out.println(myAnimal);  // This will print the toString output
-	    }
 	}
 
 
