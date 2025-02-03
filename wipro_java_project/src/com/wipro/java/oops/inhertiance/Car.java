@@ -50,10 +50,10 @@ public class Car {
 	public void setEngineType(String engineType) {
 		this.engineType = engineType;
 	}
-	void display() {
-	        System.out.println("Flower model: " + model);
-	        System.out.println("Flower color: " + color);
-	        System.out.println("Flower engineType: " + engineType);
+	public void display() {
+	        System.out.println("Car model: " + model);
+	        System.out.println("Car color: " + color);
+	        System.out.println("Car engineType: " + engineType);
 	    }
 	@Override
 	public String toString() {

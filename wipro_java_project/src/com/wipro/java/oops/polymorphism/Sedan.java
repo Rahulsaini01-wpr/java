@@ -28,8 +28,9 @@ public class Sedan extends Car {
         car1.setColor("red");
         car1.setEngineType("Petrol");
         car1.setModel("Honda Accord");
-        // but this specific code snippet doesn't show how the color is set.
-        car1.getColor();
+        
+        // Call the display method to print the car details
+        car1.display();  // This will print the details of the car
        
     }
 }

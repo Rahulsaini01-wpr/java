@@ -23,8 +23,11 @@ public class SUV extends Car {
         // Create an instance of SUV (which is a type of Car)
         Car car1 = new SUV();
         
-        // Call the inherited getColor() method from the Car class to get the color of the car.
-        car1.setColor("blue");
-        car1.getColor();
+        car1.setModel("Toyota Highlander");  // Setting the model
+        car1.setColor("blue");               // Setting the color
+        car1.setEngineType("Hybrid");        // Setting the engine type
+
+        // Call the display method to print all the details of the car
+        car1.display(); 
     }
 }
